@@ -1,16 +1,31 @@
 <style>
-    body{ background-color: rgb(251, 219, 236);}
-    .text{ 
+    body {
+        background-color: rgb(251, 219, 236);
+        text-align: center;
+        font-family: 'comic sans ms', sans-serif;
+    }
+
+    .text {
         color: rgba(18, 39, 71, 0.747);
         font-family: 'comic sans ms', sans-serif;
-        background-color: rgba(235, 148, 217, 0.48);
+       /* background-color: #eb94d97a; */
+        transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+            text-align: center;
+            border-radius: 20px;
     }
+
+    .text:hover {
+        background-color: #eb94d97a;
+        transform: scale(1.2);
+        
+    }
+
     #title {
         color: rgb(138, 87, 170);
     }
 </style>
 
-<h1 class="text" id="title">Top 5 fav manga characters</h1>
+<h1 id="title">Top 5 fav manga characters</h1>
 <h3 class="text" id="p1">Lloyd Frontera A.K.A Kim Suho</h3>
 <h3 class="text" id="p2">Kafka Hibino A.K.A Kaiju n.8</h3>
 <h3 class="text" id="p3">Ryuk</h3>
